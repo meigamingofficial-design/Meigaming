@@ -10,6 +10,19 @@ Production-ready static website for **MeiGaming**, an independent software studi
 
 ---
 
+## 🔗 Associated Repositories & App Websites
+
+All applications have been consolidated into the unified website portal. The associated repositories and individual sites are:
+
+| Application | Platform | Unified Portal Page | Repository Link | Original / Legacy Site |
+| :--- | :--- | :--- | :--- | :--- |
+| **MeiGaming Studio** | Web | [meigaming.github.io](https://meigaming.github.io) | [meigamingofficial-design/Meigaming](https://github.com/meigamingofficial-design/Meigaming) | [meigaming.github.io](https://meigaming.github.io) |
+| **MeiTorrent** | Android | [/apps/meitorrent/](https://meigaming.github.io/apps/meitorrent/) | [meigamingofficial-design/MEITORRENT](https://github.com/meigamingofficial-design/MEITORRENT) | [MEITORRENT Site](https://meigamingofficial-design.github.io/MEITORRENT/) |
+| **Mei Convertor** | Android | [/apps/mei-convertor/](https://meigaming.github.io/apps/mei-convertor/) | [meigamingofficial-design/mei_convertor](https://github.com/meigamingofficial-design/mei_convertor) | [mei_convertor Site](https://meigamingofficial-design.github.io/mei_convertor/) |
+| **MeiDroid** | macOS | [/apps/meidroid/](https://meigaming.github.io/apps/meidroid/) | [meigamingofficial-design/Meigaming](https://github.com/meigamingofficial-design/Meigaming) | New App Portal |
+
+---
+
 ## 📁 Architecture & Folder Structure
 
 ```
