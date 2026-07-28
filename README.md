@@ -1,12 +1,12 @@
 # MeiGaming — Official Website & Studio Portal
 
-[![GitHub Pages Deployment](https://img.shields.io/badge/GitHub_Pages-Active-success?logo=github)](https://meigaming.github.io)
-[![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20CSS3%20%7C%20Vanilla%20JS-blue)](https://meigaming.github.io)
-[![License](https://img.shields.io/badge/License-MIT-brightgreen)](#)
+[![Main Website](https://img.shields.io/badge/Main_Website-meigaming.github.io-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://meigaming.github.io)
+[![GitHub Pages Deployment](https://img.shields.io/badge/GitHub_Pages-Active-success?style=for-the-badge&logo=github)](https://meigaming.github.io)
+[![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20CSS3%20%7C%20Vanilla%20JS-blue?style=for-the-badge)](#)
 
-Production static website for **MeiGaming**, an independent software studio founded by **Aravindh**. 
+> 🌐 **Official Studio Website:** [https://meigaming.github.io](https://meigaming.github.io)
 
-Hosted on **GitHub Pages** at [`meigaming.github.io`](https://meigaming.github.io).
+Production-ready static website for **MeiGaming**, an independent software studio founded by **Aravindh**. Everything lives under one unified GitHub Pages website at [`https://meigaming.github.io`](https://meigaming.github.io).
 
 ---
 
