@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About & Contact — MeiGaming</title>
-  <meta name="description" content="Learn about MeiGaming software studio founded by Aravindh, design philosophy, and get in touch via email at meigaming.official@gmail.com.">
+  <title>About MeiGaming — Software Studio & Engineering Philosophy</title>
+  <meta name="description" content="Discover MeiGaming, an independent software development studio founded by Aravindh in April 2026. Dedicated to building native, privacy-first Android and macOS utilities.">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="About & Contact — MeiGaming">
-  <meta property="og:description" content="Building software with Apple-inspired minimalist design and Zen craftsmanship. Contact us at meigaming.official@gmail.com.">
+  <meta property="og:title" content="About MeiGaming — Engineering & Design Philosophy">
+  <meta property="og:description" content="Building native software with Apple-inspired minimalist design and Zen craftsmanship. Established April 18, 2026.">
   <meta property="og:url" content="https://meigaming.github.io/about.html">
   <meta property="og:image" content="https://meigaming.github.io/assets/images/logo/logo.svg">
 
@@ -57,45 +57,100 @@
   <main class="container">
     <section class="hero">
       <div class="animate-fade-in">
-        <h1 class="hero-title">About MeiGaming</h1>
+        <div class="hero-subtitle-pill">
+          <span>Established April 18, 2026</span>
+        </div>
+        <h1 class="hero-title">Engineering High-Performance Utilities for Android & macOS.</h1>
         <p class="hero-description">
-          An independent software development studio focused on minimalism, speed, and privacy.
+          MeiGaming is an independent software studio founded by Aravindh, committed to building native, fast, and privacy-focused software applications.
         </p>
       </div>
     </section>
 
-    <!-- Vision & Philosophy -->
+    <!-- Studio Core Principles Grid -->
+    <section class="section" style="padding: 0 0 48px;">
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px;">
+        <div class="platform-card" style="text-align: left; padding: 28px; background: var(--bg-secondary);">
+          <div style="font-size: 2rem; margin-bottom: 12px;">⚡</div>
+          <h3 style="margin-bottom: 8px; font-size: 1.2rem; color: var(--text-primary);">Native Performance</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+            Built close to the metal with Kotlin, Swift, and native C++ cores. No heavy web wrappers or unnecessary battery drain.
+          </p>
+        </div>
+
+        <div class="platform-card" style="text-align: left; padding: 28px; background: var(--bg-secondary);">
+          <div style="font-size: 2rem; margin-bottom: 12px;">🛡️</div>
+          <h3 style="margin-bottom: 8px; font-size: 1.2rem; color: var(--text-primary);">Privacy by Design</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+            100% ad-free and tracker-free. Applications run offline on device, ensuring user data remains strictly private.
+          </p>
+        </div>
+
+        <div class="platform-card" style="text-align: left; padding: 28px; background: var(--bg-secondary);">
+          <div style="font-size: 2rem; margin-bottom: 12px;">🌸</div>
+          <h3 style="margin-bottom: 8px; font-size: 1.2rem; color: var(--text-primary);">Japanese Zen Design</h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; line-height: 1.5; margin: 0;">
+            Harmonious interfaces guided by <em>Kanso</em> (simplicity) and <em>Shibui</em> (subtle beauty), paired with fluid dark/light themes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Content Box -->
     <section class="content-box observe-animate">
-      <h2>The Vision</h2>
+      <h2>The Studio Vision</h2>
       <p>
-        MeiGaming (founded by <strong>Aravindh</strong>) was built on a simple premise: software should be fast, quiet, and elegant. In a world full of ad-cluttered and bloated applications, MeiGaming creates clean utilities designed to empower users without getting in their way.
+        MeiGaming was founded on <strong>April 18, 2026</strong> with a singular mission: to eliminate software bloat and restore elegance, speed, and privacy to everyday mobile and desktop tools.
+      </p>
+      <p>
+        Modern software is frequently burdened by intrusive ads, background tracking, and slow hybrid frameworks. MeiGaming takes the opposite approach — building purposeful, single-responsibility utilities engineered natively for peak efficiency and longevity.
       </p>
 
-      <h2>Design & Craftsmanship</h2>
-      <p>
-        Inspired by Apple's human interface guidelines and traditional Japanese Zen aesthetic principles (<em>Kanso</em> - simplicity, <em>Shibui</em> - subtle beauty), every pixel and interaction is carefully considered.
-      </p>
-      <ul>
-        <li><strong>Zero Bloat:</strong> Lightweight codebases engineered natively for maximum performance.</li>
-        <li><strong>Privacy-First:</strong> Applications work offline whenever possible and collect zero unnecessary analytics.</li>
-        <li><strong>Accessibility & Dark Mode:</strong> Seamless adaptation to user environment and preferences.</li>
-      </ul>
+      <h2>Software Ecosystem</h2>
+      <div style="display: flex; flex-direction: column; gap: 20px; margin: 24px 0;">
+        <div style="padding: 20px; background: var(--bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+          <img src="assets/images/logo/meitorrent-icon.png" alt="MeiTorrent" style="width: 48px; height: 48px; border-radius: var(--radius-sm); object-fit: cover;">
+          <div style="flex: 1; min-width: 200px;">
+            <h3 style="margin: 0 0 4px; font-size: 1.1rem; color: var(--text-primary);">MeiTorrent</h3>
+            <p style="margin: 0; color: var(--text-secondary); font-size: 0.9rem;">Android Torrent Client powered by a high-speed native <code>libtorrent</code> C++ engine with background download support.</p>
+          </div>
+          <a href="apps/meitorrent/index.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 8px 16px;">View App</a>
+        </div>
 
-      <h2>Studio History</h2>
+        <div style="padding: 20px; background: var(--bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+          <img src="assets/images/logo/mei-convertor-icon.png" alt="Mei Convertor" style="width: 48px; height: 48px; border-radius: var(--radius-sm); object-fit: cover;">
+          <div style="flex: 1; min-width: 200px;">
+            <h3 style="margin: 0 0 4px; font-size: 1.1rem; color: var(--text-primary);">Mei Convertor</h3>
+            <p style="margin: 0; color: var(--text-secondary); font-size: 0.9rem;">Offline Android file conversion suite for images, PDFs, documents, and media with Sakura Japanese styling.</p>
+          </div>
+          <a href="apps/mei-convertor/index.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 8px 16px;">View App</a>
+        </div>
+
+        <div style="padding: 20px; background: var(--bg-secondary); border-radius: var(--radius-md); border: 1px solid var(--border-color); display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+          <img src="assets/images/logo/meidroid-icon.jpg" alt="MeiDroid" style="width: 48px; height: 48px; border-radius: var(--radius-sm); object-fit: cover;">
+          <div style="flex: 1; min-width: 200px;">
+            <h3 style="margin: 0 0 4px; font-size: 1.1rem; color: var(--text-primary);">MeiDroid</h3>
+            <p style="margin: 0; color: var(--text-secondary); font-size: 0.9rem;">Native macOS file manager and transfer utility engineered specifically for Apple Silicon and Intel Macs.</p>
+          </div>
+          <a href="apps/meidroid/index.html" class="btn btn-secondary" style="font-size: 0.85rem; padding: 8px 16px;">View App</a>
+        </div>
+      </div>
+
+      <h2>Founder & Ownership</h2>
       <p>
-        <strong>Established:</strong> Saturday, April 18, 2026<br>
-        <strong>Founder:</strong> Aravindh<br>
-        <strong>Focus:</strong> High-performance utility applications for Android and macOS.
+        <strong>Founder & Lead Developer:</strong> Aravindh<br>
+        <strong>Established:</strong> April 18, 2026<br>
+        <strong>Platforms:</strong> Android (Google Play) & macOS (Universal Binary)
       </p>
 
       <hr style="margin: 40px 0; border: none; border-top: 1px solid var(--border-color);">
 
       <!-- Integrated Contact & Support Section -->
       <h2 id="contact">Contact & Support</h2>
-      <p>Have a question, feedback, or bug report? We'd love to hear from you.</p>
+      <p>Need support, want to report a bug, or have a suggestion? Get in touch directly with the developer.</p>
 
       <div style="background: var(--bg-secondary); border-radius: var(--radius-md); padding: 32px; margin-top: 24px; text-align: center; border: 1px solid var(--border-color);">
-        <p style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); margin-bottom: 8px;">Direct Support Email</p>
+        <p style="font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--text-tertiary); margin-bottom: 8px;">Direct Developer Email</p>
         <p style="font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin-bottom: 24px;">meigaming.official@gmail.com</p>
         
         <div style="display: flex; align-items: center; justify-content: center; gap: 16px; flex-wrap: wrap;">
