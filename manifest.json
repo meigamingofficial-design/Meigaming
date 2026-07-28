@@ -1,0 +1,17 @@
+{
+  "name": "MeiGaming",
+  "short_name": "MeiGaming",
+  "description": "Crafting beautiful software for Android and macOS.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#0071e3",
+  "icons": [
+    {
+      "src": "/assets/images/icons/favicon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

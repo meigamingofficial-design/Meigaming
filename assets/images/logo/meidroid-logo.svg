@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <linearGradient id="md-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#AF52DE" />
+      <stop offset="100%" stop-color="#5856D6" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#md-grad)"/>
+  <!-- macOS finder & Android transfer cable/beam motif -->
+  <rect x="136" y="140" width="240" height="170" rx="20" fill="none" stroke="#ffffff" stroke-width="32"/>
+  <path d="M190 310 L160 380 H352 L322 310" stroke="#ffffff" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="256" cy="225" r="28" fill="#ffffff"/>
+</svg>

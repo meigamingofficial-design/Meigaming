@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 1000" width="100%" height="100%">
+  <rect width="600" height="1000" rx="40" fill="#1C1C1E"/>
+  <rect x="20" y="20" width="560" height="960" rx="32" fill="#000000"/>
+  <!-- App Title -->
+  <text x="50" y="140" fill="#30D158" font-family="-apple-system, sans-serif" font-size="32" font-weight="700">Mei Convertor</text>
+  <text x="50" y="175" fill="#86868B" font-family="-apple-system, sans-serif" font-size="18">Offline Instant Converter</text>
+  
+  <!-- Select Format Card -->
+  <rect x="40" y="220" width="520" height="200" rx="20" fill="#1C1C1E" stroke="#333336"/>
+  <text x="70" y="270" fill="#86868B" font-family="-apple-system, sans-serif" font-size="16">INPUT FILE</text>
+  <text x="70" y="305" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="22" font-weight="600">sample_document.docx</text>
+  <rect x="70" y="340" width="460" height="50" rx="12" fill="#30D158"/>
+  <text x="220" y="372" fill="#FFFFFF" font-family="-apple-system, sans-serif" font-size="20" font-weight="700">Convert to PDF</text>
+</svg>

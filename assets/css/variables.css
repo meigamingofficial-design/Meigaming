@@ -1,0 +1,91 @@
+/* MeiGaming - Design Tokens & Theme Variables */
+:root {
+  /* Color Palette - Light Mode (Apple / Zen Aesthetic) */
+  --bg-primary: #fbfbfd;
+  --bg-secondary: #f2f2f7;
+  --bg-tertiary: #e5e5ea;
+  --bg-glass: rgba(255, 255, 255, 0.72);
+  --bg-glass-card: rgba(255, 255, 255, 0.85);
+  
+  --text-primary: #1d1d1f;
+  --text-secondary: #6e6e73;
+  --text-tertiary: #86868b;
+  --text-on-accent: #ffffff;
+
+  --border-color: rgba(0, 0, 0, 0.08);
+  --border-hover: rgba(0, 0, 0, 0.16);
+
+  /* Studio Brand Accent */
+  --accent-primary: #0071e3;
+  --accent-hover: #0077ed;
+  --accent-light: rgba(0, 113, 227, 0.1);
+  --accent-gradient: linear-gradient(135deg, #0071e3 0%, #409cff 100%);
+  
+  /* App-Specific Accents */
+  /* MeiTorrent: Electric Cyan & Indigo */
+  --meitorrent-accent: #0071e3;
+  --meitorrent-gradient: linear-gradient(135deg, #2997ff 0%, #0051a8 100%);
+  --meitorrent-bg-glow: rgba(41, 151, 255, 0.15);
+
+  /* Mei Convertor: Emerald & Mint */
+  --convertor-accent: #34c759;
+  --convertor-gradient: linear-gradient(135deg, #30d158 0%, #107c41 100%);
+  --convertor-bg-glow: rgba(48, 209, 88, 0.15);
+
+  /* MeiDroid: Deep Violet & Purple */
+  --meidroid-accent: #bf5af2;
+  --meidroid-gradient: linear-gradient(135deg, #af52de 0%, #5856d6 100%);
+  --meidroid-bg-glow: rgba(175, 82, 222, 0.15);
+
+  /* Typography */
+  --font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-mono: "SF Mono", SFMono-Regular, ui-monospace, Menlo, Monaco, Consolas, monospace;
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.09);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+
+  /* Geometry */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-pill: 9999px;
+
+  /* Header & Navigation */
+  --header-height: 64px;
+  --backdrop-blur: blur(20px) saturate(180%);
+
+  /* Transitions */
+  --transition-fast: 0.18s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-slow: 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+  --bg-primary: #000000;
+  --bg-secondary: #1c1c1e;
+  --bg-tertiary: #2c2c2e;
+  --bg-glass: rgba(28, 28, 30, 0.75);
+  --bg-glass-card: rgba(38, 38, 42, 0.82);
+
+  --text-primary: #f5f5f7;
+  --text-secondary: #a1a1a6;
+  --text-tertiary: #86868b;
+  --text-on-accent: #ffffff;
+
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-hover: rgba(255, 255, 255, 0.22);
+
+  --accent-primary: #2997ff;
+  --accent-hover: #409cff;
+  --accent-light: rgba(41, 151, 255, 0.15);
+  --accent-gradient: linear-gradient(135deg, #0a84ff 0%, #5e5ce6 100%);
+
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 16px 36px rgba(0, 0, 0, 0.6);
+  --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+}
