@@ -6,7 +6,7 @@
 
 > 🌐 **Official Studio Website:** [https://meigaming.github.io](https://meigaming.github.io)
 
-Production-ready static website for **MeiGaming**, an independent software studio founded by **Aravindh**. Everything lives under one unified GitHub Pages website at [`https://meigaming.github.io`](https://meigaming.github.io).
+Production-ready static website for **MeiGaming**, an independent software studio. Everything lives under one unified GitHub Pages website at [`https://meigaming.github.io`](https://meigaming.github.io).
 
 ---
 
@@ -162,7 +162,6 @@ To add a new application to MeiGaming:
 
 ## ✉️ Support & Contact
 
-- **Owner / Developer:** Aravindh
 - **Studio Name:** MeiGaming
 - **Email:** `meigaming.official@gmail.com`
 - **GitHub:** [https://github.com/meigamingofficial-design/Meigaming](https://github.com/meigamingofficial-design/Meigaming)
