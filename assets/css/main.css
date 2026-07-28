@@ -443,7 +443,7 @@ a:hover {
   height: 56px;
   border-radius: var(--radius-md);
   object-fit: cover;
-  box-shadow: var(--shadow-sm);
+  display: block;
 }
 
 .app-title-group h3 {
@@ -539,7 +539,8 @@ a:hover {
   height: 96px;
   border-radius: var(--radius-lg);
   margin-bottom: 20px;
-  box-shadow: var(--shadow-md);
+  object-fit: cover;
+  display: block;
 }
 
 .app-meta-bar {
