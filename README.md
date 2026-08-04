@@ -1,25 +1,12 @@
 # MeiGaming — Official Website & Studio Portal
 
-[![Main Website](https://img.shields.io/badge/Main_Website-meigaming.github.io-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://meigaming.github.io)
-[![GitHub Pages Deployment](https://img.shields.io/badge/GitHub_Pages-Active-success?style=for-the-badge&logo=github)](https://meigaming.github.io)
+[![Main Website](https://img.shields.io/badge/Main_Website-Website-0071e3?style=for-the-badge&logo=googlechrome&logoColor=white)](https://meigamingofficial-design.github.io/Meigaming/index.html)
+[![GitHub Pages Deployment](https://img.shields.io/badge/GitHub_Pages-Active-success?style=for-the-badge&logo=github)](https://meigamingofficial-design.github.io/Meigaming/index.html)
 [![Stack](https://img.shields.io/badge/Stack-HTML5%20%7C%20CSS3%20%7C%20Vanilla%20JS-blue?style=for-the-badge)](#)
 
-> 🌐 **Official Studio Website:** [https://meigaming.github.io](https://meigaming.github.io)
+> 🌐 **Official Studio Website:** [https://meigamingofficial-design.github.io/Meigaming/index.html](https://meigamingofficial-design.github.io/Meigaming/index.html)
 
-Production-ready static website for **MeiGaming**, an independent software studio. Everything lives under one unified GitHub Pages website at [`https://meigaming.github.io`](https://meigaming.github.io).
-
----
-
-## 🔗 Associated Repositories & App Websites
-
-All applications have been consolidated into the unified website portal. The associated repositories and individual sites are:
-
-| Application | Platform | Unified Portal Page | Repository Link | Original / Legacy Site |
-| :--- | :--- | :--- | :--- | :--- |
-| **MeiGaming Studio** | Web | [meigaming.github.io](https://meigaming.github.io) | [meigamingofficial-design/Meigaming](https://github.com/meigamingofficial-design/Meigaming) | [meigaming.github.io](https://meigaming.github.io) |
-| **MeiTorrent** | Android | [/apps/meitorrent/](https://meigaming.github.io/apps/meitorrent/) | [meigamingofficial-design/MEITORRENT](https://github.com/meigamingofficial-design/MEITORRENT) | [MEITORRENT Site](https://meigamingofficial-design.github.io/MEITORRENT/) |
-| **Mei Convertor** | Android | [/apps/mei-convertor/](https://meigaming.github.io/apps/mei-convertor/) | [meigamingofficial-design/mei_convertor](https://github.com/meigamingofficial-design/mei_convertor) | [mei_convertor Site](https://meigamingofficial-design.github.io/mei_convertor/) |
-| **MeiDroid** | macOS | [/apps/meidroid/](https://meigaming.github.io/apps/meidroid/) | [meigamingofficial-design/Meigaming](https://github.com/meigamingofficial-design/Meigaming) | New App Portal |
+Production-ready static website for **MeiGaming**, an independent software studio. Everything lives under one unified website at [`https://meigamingofficial-design.github.io/Meigaming/index.html`](https://meigamingofficial-design.github.io/Meigaming/index.html).
 
 ---
 
@@ -86,7 +73,7 @@ All applications have been consolidated into the unified website portal. The ass
 This project requires **zero build tools, zero Node.js dependencies, and zero compilation steps**.
 
 ### Steps to Deploy:
-1. Push this repository to GitHub under your user or organization account (`meigamingofficial-design/Meigaming` or `meigaming/meigaming.github.io`).
+1. Push this repository to GitHub under your user or organization account (`meigamingofficial-design/Meigaming`).
 2. Go to repository **Settings** -> **Pages**.
 3. Under **Build and deployment**:
    - **Source**: Select `Deploy from a branch`.
